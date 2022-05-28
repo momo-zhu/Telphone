@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DynamicBox</string>
+    <string name="empty_string">无数据</string>
+    <string name="dynamicbox_retry">重试</string>
+
+    <string name="dynamicbox_loading_title">加载中…</string>
+    <string name="dynamicbox_loading_message">""</string>
+
+    <string name="dynamicbox_internet_off_title">错误</string>
+    <string name="dynamicbox_internet_off_message">网络连接已断开</string>
+
+    <string name="dynamicbox_exception_title">错误</string>
+    <string name="dynamicbox_exception_message">出现了一个错误，请重试</string>
+
+
+</resources>

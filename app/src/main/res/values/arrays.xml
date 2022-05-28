@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="charsets">
+    <item>UTF-8</item>
+    <item>GBK</item>
+    <item>iso-8859-1</item>
+  </string-array>
+
+</resources>

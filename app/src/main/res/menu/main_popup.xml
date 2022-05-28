@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/product_manager"
+        android:orderInCategory="100"
+        android:title="@string/product_manager"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/default_sku"
+        android:orderInCategory="100"
+        android:title="@string/default_sku"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/default_property"
+        android:orderInCategory="100"
+        android:title="@string/default_property"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/shop_config"
+        android:orderInCategory="100"
+        android:title="@string/shop_config"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/printer_config"
+        android:orderInCategory="100"
+        android:title="@string/printer_config"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/email_config"
+        android:orderInCategory="100"
+        android:title="@string/email_config"
+        app:showAsAction="always" />
+</menu>

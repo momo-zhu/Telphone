@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/product_name"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:met_baseColor="@color/edit_text_base_color"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_primaryColor="@color/edit_text_primary_color"
+        app:met_textColorHint="@color/edit_text_hint_color"
+        app:met_validateOnFocusLost="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/product_code"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:maxEms="3"
+        android:singleLine="true"
+        app:met_baseColor="@color/edit_text_base_color"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_primaryColor="@color/edit_text_primary_color"
+        app:met_textColorHint="@color/edit_text_hint_color"
+        app:met_validateOnFocusLost="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/price"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        app:met_baseColor="@color/edit_text_base_color"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_primaryColor="@color/edit_text_primary_color"
+        app:met_textColorHint="@color/edit_text_hint_color"
+        app:met_validateOnFocusLost="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/taxRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/product_tax_rate"
+        android:inputType="numberDecimal"
+        app:met_baseColor="@color/edit_text_base_color"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_primaryColor="@color/edit_text_primary_color"
+        app:met_textColorHint="@color/edit_text_hint_color"
+        app:met_validateOnFocusLost="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/skuEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:text="@string/modify_sku"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="md"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="true" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/propertyEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:text="@string/modify_property"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="md"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="true" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,2 @@
+include ':app',   ':kjframe',
+        ':pullToRefresh',':sweetDialog', ':alertview', ":DynamicBox","AndroidBootstrap"

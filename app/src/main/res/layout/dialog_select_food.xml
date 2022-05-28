@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_transparent"
+    android:showDividers="middle"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:divider="@drawable/divider_transparent"
+        android:showDividers="middle"
+        android:orientation="vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/divider_light"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:padding="3dp"
+            android:textColor="@color/gold_agent"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:lines="1"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            app:layout_constraintHorizontal_weight="1"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/gray"
+            android:textSize="12sp"/>
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="3dp"
+            app:bootstrapBrand="warning"
+            app:buttonMode="regular"
+            app:showOutline="false"
+            app:roundedCorners="true"/>
+
+        <!--  <ImageView
+            android:id="@+id/minus"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/icon_minus_small"
+/>
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/icon_add_small"/>-->
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <CheckBox
+        android:id="@+id/useSku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/spec"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="3"
+        android:hint="@string/spec_name"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textSize="14sp"
+        app:met_baseColor="@color/edit_text_base_color"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_primaryColor="@color/edit_text_primary_color"
+        app:met_textColorHint="@color/edit_text_hint_color"
+        app:met_validateOnFocusLost="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="@string/price"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textSize="14sp"
+        app:met_baseColor="@color/edit_text_base_color"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_primaryColor="@color/edit_text_primary_color"
+        app:met_textColorHint="@color/edit_text_hint_color"
+        app:met_validateOnFocusLost="true" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icon_remove" />
+</LinearLayout>
+
+

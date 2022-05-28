@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<item-->
+        <!--android:id="@+id/table"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/customer"-->
+        <!--android:icon="@drawable/icon_table"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/customer"
+        android:orderInCategory="100"
+        android:title="@string/customer"
+        android:icon="@drawable/icon_customer"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/callRecord"
+        android:orderInCategory="100"
+        android:title="@string/contact_record"
+        android:icon="@drawable/icon_call_log"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
+        android:icon="@drawable/icon_settings"
+        app:showAsAction="ifRoom" />
+</menu>
